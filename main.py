@@ -668,8 +668,6 @@ all_lines =  ["📺中国央视频道,#genre#"] + sort_data(ys_dictionary,correc
              ["收音机频道,#genre#"] + sort_data(radio_dictionary,set(radio_lines))  + ['\n'] + \
              ["❤️与凤行,#genre#"] + read_txt_to_array('专区/特供频道/♪与凤行.txt')  + ['\n'] + \
              ["❤️以家人之名,#genre#"] + read_txt_to_array('专区/特供频道/♪以家人之名.txt')
-             ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
-
 # # custom定制
 # custom_lines_zhang =  ["更新时间,#genre#"] +[version] + ['\n'] +\
 #             ["港澳台,#genre#"] + sort_data(gat_dictionary,set(correct_name_data(corrections_name,gat_lines))) + ['\n'] 
