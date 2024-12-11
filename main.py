@@ -579,7 +579,8 @@ version=formatted_time+","+about_video1
 about="关于本源(iptv365.org),"+about_video2
 # 瘦身版
 # 
-all_lines_simple =  ["💓专享央视,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
+all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ ['\n'] +\
+             ["💓专享央视,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
              ["💓专享卫视,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
              ["💓专享源🅰️,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
              ["💓专享源🅱️,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
@@ -603,7 +604,8 @@ all_lines_simple =  ["💓专享央视,#genre#"] + read_txt_to_array('专区/♪
 # 合并所有对象中的行文本（去重，排序后拼接）
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 # 
-all_lines =  ["📺中国央视频道,#genre#"] + sort_data(ys_dictionary,correct_name_data(corrections_name,ys_lines)) + ['\n'] + \
+all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
+             ["📺中国央视频道,#genre#"] + sort_data(ys_dictionary,correct_name_data(corrections_name,ys_lines)) + ['\n'] + \
              ["📡中国卫视频道,#genre#"] + sort_data(ws_dictionary,correct_name_data(corrections_name,ws_lines)) + ['\n'] + \
              ["🎥经典影视频道,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
              ["🎬专享影视频道,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
