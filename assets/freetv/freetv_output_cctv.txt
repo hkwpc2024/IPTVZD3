@@ -1,5 +1,5 @@
 更新时间,#genre#
-20241211 09:57:14,url
+20241211 17:35:41,url
 
 
 freetv_cctv,#genre#
@@ -79,7 +79,6 @@ CCTV10,https://stream1.freetv.fun/cctv10-16.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-17.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-18.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-21.m3u8
-CCTV10,https://stream1.freetv.fun/cctv10-22.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-23.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-24.m3u8
 CCTV10,https://stream1.freetv.fun/cctv10-25.m3u8
@@ -672,7 +671,6 @@ CCTV4,https://stream1.freetv.fun/cctv4-22.m3u8
 CCTV4,https://stream1.freetv.fun/cctv4-29.m3u8
 CCTV4,https://stream1.freetv.fun/cctv4-31.m3u8
 CCTV4,https://stream1.freetv.fun/cctv4-33.m3u8
-CCTV4,https://stream1.freetv.fun/cctv4-36.m3u8
 CCTV4,https://stream1.freetv.fun/cctv4-37.m3u8
 CCTV4,https://stream1.freetv.fun/cctv4-39.ctv
 CCTV4,https://stream1.freetv.fun/cctv4-4.m3u8
@@ -777,7 +775,6 @@ CCTV5+,https://stream1.freetv.fun/ipv6-cctv5-plus-ti-yu-sai-shi-7.m3u8
 CCTV5+,https://stream1.freetv.fun/ipv6-cctv5-plus-ti-yu-sai-shi-8.m3u8
 CCTV5,https://stream1.freetv.fun/cctv-5-14.m3u8
 CCTV5,https://stream1.freetv.fun/cctv-5-17.m3u8
-CCTV5,https://stream1.freetv.fun/cctv-5-3.m3u8
 CCTV5,https://stream1.freetv.fun/cctv-5-ti-yu-1.m3u8
 CCTV5,https://stream1.freetv.fun/cctv-5-ti-yu-sai-shi-1.m3u8
 CCTV5,https://stream1.freetv.fun/cctv-5-ti-yu-sai-shi-2.m3u8
@@ -994,7 +991,6 @@ CCTV8,https://stream1.freetv.fun/cctv8-5.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-50.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-51.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-52.m3u8
-CCTV8,https://stream1.freetv.fun/cctv8-54.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-55.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-62.m3u8
 CCTV8,https://stream1.freetv.fun/cctv8-7.ctv
@@ -1026,7 +1022,6 @@ CCTV8,https://stream1.freetv.fun/ipv6-cctv8-9.m3u8
 CCTV9,https://stream1.freetv.fun/cctv-9-11.m3u8
 CCTV9,https://stream1.freetv.fun/cctv-9-13.m3u8
 CCTV9,https://stream1.freetv.fun/cctv-9-16.m3u8
-CCTV9,https://stream1.freetv.fun/cctv-9-2.m3u8
 CCTV9,https://stream1.freetv.fun/cctv-9gao-qing-1.ctv
 CCTV9,https://stream1.freetv.fun/cctv-hd-9-1.ctv
 CCTV9,https://stream1.freetv.fun/cctv09-2.m3u8
@@ -1093,9 +1088,9 @@ CCTV第一剧场,https://stream1.freetv.fun/cctv-hd-di-yi-ju-chang-1.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-11.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-15.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-16.m3u8
-CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-17.m3u8
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-19.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-2.m3u8
+CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-23.m3u8
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-25.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-4.m3u8
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-6.m3u8
