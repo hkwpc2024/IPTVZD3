@@ -579,20 +579,20 @@ version=formatted_time+","+about_video1
 about="关于本源(iptv365.org),"+about_video2
 # 瘦身版
 # 
-all_lines_simple =  ["📺专享央视频道,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
-             ["📡专享卫视频道,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
-             ["🎬专享影视频道,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
-             ["📹全球电影频道,#genre#"] + sort_data(dy_dictionary,correct_name_data(corrections_name,dy_lines)) + ['\n'] + \
-             ["💿经典剧集频道,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
-             ["📀电视追剧频道,#genre#"] + sort_data(dsj_dictionary,correct_name_data(corrections_name,dsj_lines)) + ['\n'] + \
-             ["💓优质个源频道,#genre#"] + read_txt_to_array('专区/♪优质源.txt') + ['\n'] + \
-             ["👶儿童专享频道,#genre#"] + read_txt_to_array('专区/♪儿童专享.txt') + ['\n'] + \
-             ["🌴咪咕直播频道,#genre#"] + read_txt_to_array('专区/♪咪咕直播.txt') + ['\n'] + \
-             ["💃中国戏曲频道,#genre#"] + sort_data(xq_dictionary,set(correct_name_data(corrections_name,xq_lines))) + ['\n'] + \
-             ["🎐中国纪录频道,#genre#"] + sort_data(jlp_dictionary,set(correct_name_data(corrections_name,jlp_lines)))+ ['\n'] + \
-             ["📽影视主题频道,#genre#"] + sort_data(ztp_dictionary,correct_name_data(corrections_name,ztp_lines)) + ['\n'] + \
-             ["💻央视春晚频道,#genre#"] + sort_data(cw_dictionary,set(cw_lines))  + ['\n'] + \
-             ["🏌️‍♂️体育赛事频道,#genre#"] + sort_data(ty_dictionary,set(correct_name_data(corrections_name,ty_lines))) + ['\n']
+all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ ['\n'] +\
+             ["💓专享源🅰️,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
+             ["💓专享源🅱️,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
+             ["💓专享央视,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
+             ["💓专享卫视,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
+             ["💓港澳台📶,#genre#"] + read_txt_to_array('专区/♪港澳台.txt') + ['\n'] + \
+             ["💓台湾台📶,#genre#"] + read_txt_to_array('专区/♪台湾台.txt') + ['\n'] + \
+             ["💓电视剧🔁,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
+             ["💓优质个源,#genre#"] + read_txt_to_array('专区/♪优质源.txt') + ['\n'] + \
+             ["💓儿童专享,#genre#"] + read_txt_to_array('专区/♪儿童专享.txt') + ['\n'] + \
+             ["💓咪咕直播,#genre#"] + read_txt_to_array('专区/♪咪咕直播.txt') + ['\n'] + \
+             ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('专区/♪sports.txt') + ['\n'] + \
+             ["🍹定制台☕️,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
+             ["💓英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
              ["☘️湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
              ["☘️湖北频道,#genre#"] + sort_data(hb_dictionary,set(correct_name_data(corrections_name,hb_lines))) + ['\n'] + \
              ["☘️广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
