@@ -1,9 +1,10 @@
 name: 'Daily Job(main)'
 
 on:
-  workflow_dispatch:
   schedule:
-      - cron: "30 1,9 * * *"
+    - cron: '30 1 * * *'
+    - cron: '30 9 * * *'    
+  workflow_dispatch:
     inputs:
       environment:
         description: 'Environment to deploy to'
